@@ -1,0 +1,183 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700');
+
+header {
+    margin: 0;
+    background-color: rgba(255, 0, 0, .2);
+}
+
+.bg-color-name-title {
+    background-color: #676767;
+}
+
+.ui-menu-color-home {
+    background-color: #e67e22;
+}
+
+.ui-menu-color-resume {
+    background-color: Mediumslateblue;
+}
+
+.ui-menu-color-contact {
+    background-color: dodgerblue;
+}
+
+.ui-menu-color-download {
+    background-color: grey;
+}
+
+.heading {
+    margin-left: 50px;
+}
+
+.logo {
+    background: url("../images/coding_profile_picture.jpg");
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 360px;
+    transition: all 1s ease-in-out;
+    -moz-transition: all 5s ease-in-out;
+    -webkit-transition: all 5s ease-in-out;
+}
+
+.name {
+    font-family: "Exo", sans-serif;
+    /*setting the fonts for the name Exo, if it fails, sans-serif*/
+    font-weight: 100;
+    font-size: 46px;
+    margin-top: 50px;
+    color: #ffffff;
+}
+
+.title {
+    font-family: "Roboto", sans-serif;
+    /*setting the fonts for the title Roboto, if it fails, sans-serif*/
+    font-weight: 200;
+    font-size: 28px;
+    margin-top: 20px;
+    margin-bottom: 90px;
+    color: #ffffff;
+}
+
+#nav {
+    margin: 0;
+}
+
+.menuitem {
+    height: 120px;
+    text-align: center;
+    padding: 0;
+}
+
+.menuitem a {
+    width: 100%;
+    /*the reason is to make the entire area clickable*/
+    text-decoration: none;
+    color: #ffffff;
+    height: 120px;
+    padding-right: 0;
+    padding-left: 0;
+}
+
+.menuitem a i {
+    padding-top: 22px;
+    display: block;
+    /*so it is occupying its parent container*/
+    color: #fafafa;
+    /*slightly off-white*/
+    font-size: 30px;
+}
+
+.menuitem span {
+    padding-top: 7px;
+    display: block;
+    /*so it is occupying its parent container*/
+    width: 100%;
+    text-align: center;
+    color: #fafafa;
+    /*slightly off-white*/
+    font-size: 26px;
+    font-size: 19px;
+    font-weight: 300;
+    /*slightly thiner, but it looks more elegant*/
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+.list-inline>li {
+    display: inline-block;
+    padding-right: 0px;
+    padding-left: 0px;
+}
+
+h1,
+h2,
+h3,
+h4 {
+    margin: 0;
+}
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+.general-sub {
+    font-family: "Exo", sans-serif;
+    font-weight: 300;
+    color: #fafafa;
+
+}
+
+footer {
+    background-color: #525252;
+    color: #fafafa;
+    min-height: 120px;
+    margin: 0;
+    text-align: center;
+}
+
+.inline-block {
+    display: inline-block;
+}
+
+footer .cv-pdf i {
+    color: #fafafa;
+    text-align: center;
+    font-size: 18px;
+    padding-left: 5px;
+    transition: all .35s ease-in-out;
+    -moz-transition: all .35s ease-in-out;
+    -webkit-transition: all .35s ease-in-out;
+    -o-transition: all .35s ease-in-out;
+}
+
+footer .cv-pdf i:hover {
+    color: darkorange;
+}
+
+.social-links {
+    padding-bottom: 15px:
+}
+
+.social-links li a i {
+    /*circle around them*/
+    width: 32px;
+    height: 32px;
+    padding: 13px 12px 12px 11px;
+    border-radius: 50%;
+    font-size: 13px;
+    line-height: 7px;
+    text-align: center;
+    color: #fafafa;
+    background: #8f8f8f;
+    transition: all .35s ease-in-out;
+    -moz-transition: all .35s ease-in-out;
+    -webkit-transition: all .35s ease-in-out;
+    -o-transition: all .35s ease-in-out;
+}
+.social-links li a i:hover{
+    color: darkorange;
+}
+#footer-deatils {
+    margin: 20px;
+}
